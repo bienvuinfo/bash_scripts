@@ -1,4 +1,5 @@
 #!/bin/bash
+# FIX .ssh folder permissions
 chmod 700 $(find . -type d)
 chmod 600 $(find . -type f)
 chmod 640 $(find . -type f -name "*.pub")
